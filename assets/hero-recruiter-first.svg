@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Full-Stack Developer</title>
+  <desc id="desc">Building scalable web applications with clean architecture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020509"/>
+      <stop offset="0.6" stop-color="#070b11"/>
+      <stop offset="1" stop-color="#081721"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#00b8e6" opacity=".08"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="250" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="250" rx="16" fill="url(#dots)"/>
+  <rect x="1" y="1" width="1198" height="248" rx="15" fill="none" stroke="#263440"/>
+  <rect x="60" y="57" width="4" height="136" rx="2" fill="url(#accent)"/>
+  <text x="92" y="119" fill="#22d3ee" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="650">Full-Stack Developer</text>
+  <text x="94" y="164" fill="#e6edf3" font-family="Consolas,Monaco,monospace" font-size="19">Building scalable web applications with clean architecture.</text>
+  <g transform="translate(985 69)" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 18 12 54l36 36"/>
+    <path d="m96 18 36 36-36 36"/>
+    <path d="m82 4-20 100"/>
+  </g>
+  <path d="M930 188h162" stroke="#22d3ee" stroke-width="2" opacity=".45"/>
+  <path d="M978 201h114" stroke="#263440" stroke-width="2"/>
+</svg>
