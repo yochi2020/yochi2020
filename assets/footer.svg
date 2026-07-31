@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">End of transmission</title>
+  <desc id="desc">Animated cyberpunk footer with moving data packets and a blinking terminal cursor.</desc>
+  <defs>
+    <linearGradient id="bg"><stop stop-color="#040713"/><stop offset=".5" stop-color="#0b1021"/><stop offset="1" stop-color="#040713"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#c77dff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#ff4ecd"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .packet{animation:packet 5s linear infinite}
+      .blink{animation:blink .85s step-end infinite}
+      @keyframes packet{from{transform:translateX(-80px)}to{transform:translateX(1280px)}}
+      @keyframes blink{50%{opacity:0}}
+      @media(prefers-reduced-motion:reduce){.packet,.blink{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="220" rx="20" fill="url(#bg)"/>
+  <path d="M34 45h1132M34 175h1132" stroke="#263559" stroke-dasharray="4 10"/>
+  <path d="M70 110h1060" stroke="url(#line)" stroke-width="2" opacity=".55" filter="url(#glow)"/>
+  <g class="packet">
+    <rect x="0" y="103" width="52" height="14" rx="7" fill="#22d3ee" filter="url(#glow)"/>
+    <circle cx="68" cy="110" r="4" fill="#ff4ecd"/>
+  </g>
+  <g class="packet" style="animation-delay:-2.4s">
+    <rect x="0" y="106" width="28" height="8" rx="4" fill="#c77dff"/>
+  </g>
+  <g class="mono" text-anchor="middle">
+    <text x="600" y="92" fill="#d7e1f7" font-size="18" letter-spacing="5">END OF TRANSMISSION</text>
+    <text x="600" y="144" fill="#7082a6" font-size="13" letter-spacing="3">CONNECTION PERSISTENT // BUILD SIGNAL ACTIVE</text>
+    <rect class="blink" x="845" y="132" width="8" height="15" fill="#7cff6b"/>
+  </g>
+  <circle cx="53" cy="25" r="4" fill="#7cff6b"/>
+  <text class="mono" x="68" y="30" fill="#7082a6" font-size="11">SESSION: OPEN</text>
+  <rect x="1" y="1" width="1198" height="218" rx="19" fill="none" stroke="#314268"/>
+</svg>
