@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Yochi system profile</title>
+  <desc id="desc">Cyberpunk developer identity card and editable current-status indicators.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b17"/><stop offset="1" stop-color="#0d1023"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#c77dff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#ff4ecd"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#22d3ee" opacity=".11"/></pattern>
+    <style>
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .label{fill:#7082a6;font-size:13px;letter-spacing:2px}
+      .value{fill:#d7e1f7;font-size:19px}
+      .ping{animation:ping 1.8s ease-in-out infinite}
+      .dash{animation:dash 8s linear infinite}
+      @keyframes ping{50%{opacity:.2}}
+      @keyframes dash{to{stroke-dashoffset:-80}}
+      @media(prefers-reduced-motion:reduce){.ping,.dash{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#dots)"/>
+  <path d="M22 96V42a20 20 0 0 1 20-20h235M1178 96V42a20 20 0 0 0-20-20H923M22 264v54a20 20 0 0 0 20 20h235M1178 264v54a20 20 0 0 1-20 20H923" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <path class="dash" d="M410 54v252" stroke="#22d3ee" stroke-opacity=".45" stroke-dasharray="5 10"/>
+  <g transform="translate(62 55)">
+    <circle cx="128" cy="125" r="106" fill="#0a1021" stroke="#263559" stroke-width="2"/>
+    <circle class="dash" cx="128" cy="125" r="91" fill="none" stroke="#c77dff" stroke-width="2" stroke-dasharray="12 14"/>
+    <path d="M73 180c13-35 33-52 55-52s42 17 55 52" fill="none" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" filter="url(#glow)"/>
+    <circle cx="128" cy="92" r="29" fill="none" stroke="#ff4ecd" stroke-width="6" filter="url(#glow)"/>
+    <circle class="ping" cx="205" cy="49" r="7" fill="#7cff6b" filter="url(#glow)"/>
+    <text class="mono" x="128" y="252" fill="#7082a6" font-size="12" text-anchor="middle" letter-spacing="3">PROFILE ACTIVE</text>
+  </g>
+  <g class="mono" transform="translate(465 62)">
+    <text class="label" x="0" y="0">OPERATOR</text>
+    <text class="value" x="0" y="29">Yochi</text>
+    <text class="label" x="0" y="78">ROLE</text>
+    <text class="value" x="0" y="107">Full-Stack Developer</text>
+    <text class="label" x="0" y="156">LOCATION</text>
+    <text class="value" x="0" y="185">Thailand</text>
+    <text class="label" x="0" y="234">GITHUB NODE</text>
+    <text x="0" y="263" fill="#22d3ee" font-size="19">@yochi2020</text>
+  </g>
+  <g class="mono" transform="translate(790 62)">
+    <text x="0" y="0" fill="#c77dff" font-size="14" letter-spacing="3">CURRENT STATUS</text>
+    <rect x="0" y="24" width="350" height="64" rx="7" fill="#0a1021" stroke="#263559"/>
+    <circle class="ping" cx="23" cy="56" r="5" fill="#7cff6b"/>
+    <text x="40" y="52" class="label">FOCUS</text>
+    <text x="40" y="72" fill="#d7e1f7" font-size="14">Backend &amp; scalable systems</text>
+    <rect x="0" y="102" width="350" height="64" rx="7" fill="#0a1021" stroke="#263559"/>
+    <circle class="ping" cx="23" cy="134" r="5" fill="#22d3ee" style="animation-delay:.5s"/>
+    <text x="40" y="130" class="label">LEARNING</text>
+    <text x="40" y="150" fill="#d7e1f7" font-size="14">System Design &amp; Testing</text>
+    <rect x="0" y="180" width="350" height="64" rx="7" fill="#0a1021" stroke="#263559"/>
+    <circle class="ping" cx="23" cy="212" r="5" fill="#ff4ecd" style="animation-delay:1s"/>
+    <text x="40" y="208" class="label">AVAILABILITY</text>
+    <text x="40" y="228" fill="#d7e1f7" font-size="14">Open to opportunities</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="21" fill="none" stroke="#314268"/>
+</svg>
