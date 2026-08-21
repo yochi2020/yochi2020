@@ -1,94 +1,161 @@
+<!-- GitHub Profile README for yochi2020 — public profile data only. -->
+
 <div align="center">
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=2200&pause=800&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&height=60&lines=Full-Stack+Developer"
-  alt="Animated typing text: Full-Stack Developer"
-/>
-
-### Building scalable web applications with clean architecture.
-
-Hi 👋 I'm a Full-Stack Developer from Thailand.<br />
-I enjoy building maintainable web applications with TypeScript, React, Next.js, Node.js, databases, Docker, and modern development practices.
-
-[View my repositories](https://github.com/yochi2020?tab=repositories) · [Instagram](https://www.instagram.com/yochi.suzuki)
-
+  <img src="./assets/header.svg" width="100%" alt="Yochi — Full-Stack Developer, futuristic terminal interface" />
 </div>
 
----
+<div align="center">
+  <a href="#system_profile">Profile</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#technology_matrix">Stack</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#selected_builds">Projects</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#github_telemetry">Telemetry</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#open_channel">Contact</a>
+</div>
 
-## About Me
+<br />
 
-| | |
-|---|---|
-| **Role** | Full-Stack Developer |
-| **Focus** | Backend Development and scalable systems |
-| **Architecture** | Clean Architecture and maintainable code |
-| **Mindset** | Always learning and improving |
-| **What I enjoy** | Solving real-world problems |
-| **Availability** | Open to Full-Stack opportunities |
+## `SYSTEM_PROFILE`
 
-## Tech Stack
+<div align="center">
+  <img src="./assets/profile-card.svg" width="100%" alt="Developer profile and current status panel" />
+</div>
 
-**Languages**
+I’m **Yochi**, a **Full-Stack Developer** building dependable web products from accessible interfaces to maintainable APIs and data layers. I care about clear architecture, practical security, and shipping software that remains understandable after the first release.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6)
+```text
+operator   : Yochi
+role       : Full-Stack Developer
+location   : Thailand
+focus      : Backend development & scalable systems
+learning   : System Design & Testing
+status     : Open to Full-Stack opportunities
+```
 
-**Frontend**
+> [!NOTE]
+> Currently learning Advanced TypeScript, Clean Architecture, System Design, CI/CD, Docker, Testing, and Performance Optimization.
 
-![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css&logoColor=1572B6)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=flat-square&logo=bootstrap&logoColor=7952B3)
+## `TECHNOLOGY_MATRIX`
 
-**Backend**
+<div align="center">
+  <img src="./assets/tech-stack.svg" width="100%" alt="Technology stack grouped by Frontend, Backend, Database, DevOps, and Tools" />
+</div>
 
-![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
-![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=FFFFFF)
+<table>
+  <tr>
+    <td width="24%"><strong>◈ Frontend</strong></td>
+    <td>JavaScript · TypeScript · React · Next.js · HTML · CSS · Tailwind CSS · Bootstrap</td>
+  </tr>
+  <tr>
+    <td><strong>◆ Backend</strong></td>
+    <td>Node.js · Express · TypeORM · Mongoose</td>
+  </tr>
+  <tr>
+    <td><strong>⬡ Database</strong></td>
+    <td>PostgreSQL · MongoDB</td>
+  </tr>
+  <tr>
+    <td><strong>▣ DevOps</strong></td>
+    <td>Docker · Docker Compose</td>
+  </tr>
+  <tr>
+    <td><strong>⌁ Tools</strong></td>
+    <td>Git · GitHub · VS Code · Postman · MongoDB Compass · pgAdmin</td>
+  </tr>
+</table>
 
-**Database**
+<details>
+  <summary><strong>Skill signal legend</strong></summary>
+  <br />
+  The visual cards identify technologies in the current toolchain; they do not claim a fabricated proficiency score, certification, or number of years.
+</details>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169E1)
-![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=47A248)
+## `SELECTED_BUILDS`
 
-**ORM / ODM**
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>01 // Review Full-Stack</h3>
+      <p>A full-stack review project built around TypeScript, React, Node.js, and TypeORM.</p>
+      <p><code>TypeScript · React · Node.js · TypeORM</code></p>
+      <a href="https://github.com/yochi2020/Review-fullstack-Node-TypeOrm-React-Typescript">Explore repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>02 // Backend Project Structure</h3>
+      <p>A backend project structure using Node.js and Sequelize configuration.</p>
+      <p><code>JavaScript · Node.js · Sequelize</code></p>
+      <a href="https://github.com/yochi2020/project">Explore repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>03 // Node + TypeScript Structure</h3>
+      <p>A reusable Node.js and TypeScript project structure with an ESLint-focused development setup.</p>
+      <p><code>TypeScript · Node.js · ESLint</code></p>
+      <a href="https://github.com/yochi2020/structure-node-typescript">Explore repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>04 // React + TypeScript Structure</h3>
+      <p>A project structure for organizing React applications with TypeScript.</p>
+      <p><code>React · TypeScript</code></p>
+      <a href="https://github.com/yochi2020/structure-react-typescript">Explore repository →</a>
+    </td>
+  </tr>
+</table>
 
-![TypeORM](https://img.shields.io/badge/TypeORM-111827?style=flat-square&logo=typeorm&logoColor=FE0803)
-![Mongoose](https://img.shields.io/badge/Mongoose-111827?style=flat-square&logo=mongoose&logoColor=880000)
+## `GITHUB_TELEMETRY`
 
-**DevOps**
+<!--
+  These cards load read-only public GitHub data from third-party renderers.
+  If a renderer is temporarily unavailable, the rest of this README still works
+  and the native GitHub activity link below remains available.
+-->
 
-![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-111827?style=flat-square&logo=docker&logoColor=2496ED)
+<div align="center">
+  <a href="https://github.com/yochi2020">
+    <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yochi2020&amp;theme=2077" alt="Yochi's public GitHub statistics" />
+  </a>
+  <a href="https://github.com/yochi2020?tab=repositories">
+    <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yochi2020&amp;theme=2077" alt="Top languages across Yochi's public repositories" />
+  </a>
+</div>
 
-**Version Control**
+### `// CONTRIBUTION_ACTIVITY`
 
-![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=FFFFFF)
+<div align="center">
+  <a href="https://github.com/yochi2020">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=yochi2020&amp;bg_color=070B17&amp;color=C77DFF&amp;line=22D3EE&amp;point=FF4ECD&amp;area=true&amp;hide_border=true" width="100%" alt="Yochi's public GitHub contribution activity graph" />
+  </a>
+</div>
 
-**Tools**
+<p align="center">
+  External card offline?
+  <a href="https://github.com/yochi2020">Open the native GitHub contribution overview →</a>
+</p>
 
-![VS Code](https://img.shields.io/badge/VS_Code-111827?style=flat-square&logo=visualstudiocode&logoColor=007ACC)
-![Postman](https://img.shields.io/badge/Postman-111827?style=flat-square&logo=postman&logoColor=FF6C37)
-![MongoDB Compass](https://img.shields.io/badge/MongoDB_Compass-111827?style=flat-square&logo=mongodb&logoColor=47A248)
-![pgAdmin](https://img.shields.io/badge/pgAdmin-111827?style=flat-square&logo=postgresql&logoColor=4169E1)
+## `OPEN_CHANNEL`
 
-## Currently Learning
+<div align="center">
+  <a href="https://www.instagram.com/yochi.suzuki">
+    <img src="https://img.shields.io/badge/INSTAGRAM-090E1B?style=for-the-badge&amp;logo=instagram&amp;logoColor=FF4ECD" alt="Instagram" />
+  </a>
+  <a href="https://github.com/yochi2020">
+    <img src="https://img.shields.io/badge/GITHUB-090E1B?style=for-the-badge&amp;logo=github&amp;logoColor=7CFF6B" alt="GitHub" />
+  </a>
+  <a href="https://github.com/yochi2020?tab=repositories">
+    <img src="https://img.shields.io/badge/REPOSITORIES-090E1B?style=for-the-badge&amp;logo=github&amp;logoColor=22D3EE" alt="Public repositories" />
+  </a>
+</div>
 
-- [ ] Advanced TypeScript
-- [ ] Clean Architecture
-- [ ] System Design
-- [ ] CI/CD
-- [ ] Docker
-- [ ] Testing
-- [ ] Performance Optimization
+<br />
 
----
+<div align="center">
+  <img src="./assets/footer.svg" width="100%" alt="End of transmission — footer animation" />
+</div>
 
-> ### Open to Opportunities
->
-> I'm excited to collaborate on meaningful projects, contribute to impactful teams, and keep growing as a Full-Stack Developer.
->
-> **Let's build something great together.**
+<p align="center">
+  <sub>Designed for GitHub • no client-side JavaScript • public data only</sub>
+</p>
